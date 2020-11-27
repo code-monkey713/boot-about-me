@@ -1,0 +1,63 @@
+* {
+  font-family: serif;
+  box-sizing: border-box;
+}
+
+nav {
+  ;
+}
+
+name {
+  background-color: #6EC6BA;
+  color: azure;
+  font-size: 30px;
+  align-items: center;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #6EC6BA;
+  color:white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout when the screen is less than 992px wide columns stack on each other */
+@media screen and (max-width: 992px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
