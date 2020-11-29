@@ -8,49 +8,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <!-- Fixed navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top bg-light">
-      <brand class="navbar-brand">
+  <!--Navigation bar with collapse menu on large screen size-->
+  <nav class="navbar bg-light navbar-expand-lg">
+    <div class="container">
+      <navbar-brand>
         Tony Tran
-      </brand>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+      </navbar-brand>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto links">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Contact<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="portfolio.html">Portfolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-          </li>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+          <li class="nav-item"><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link">About</a></li>
         </ul>
       </div>
-    </nav>
-  </header>
-  <!--
-  <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
-    <name>
-      Tony Tran
-    </name>
-    <links>
-      <ul class="nav justify-content-end">
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="index.html">About</a></li>
-      </ul>
-    </links>
-  </nav> -->
-  <div class="container">
-    <div style="text-align:center">
-      <h2>Contact</h2>
     </div>
-    <div class="row">
-      <div class="column">
+  </nav>
+  
+  <!--The contact text section-->
+  <div class="main">
+    <div class="container-fluid">
+      <div class="row align-items-center">
+        <div class="col-lg-8 main">
+          <h2>Contact</h2>
+        </div>
+      </div>
+    </div>
+
+  <!--Main contact input section-->
+  <div class="container-fluid py-3 px-3 content">
+    <div class="row align-items-center py-3">
+      <div class="portfolio-1 col-lg-6">
         <form action="">
           <label for="Name">Name</label>
           <input type="text" id="Name" name="Name" placeholder="Name">
@@ -63,6 +53,16 @@
       </div>
     </div>
   </div>
+
+  <!--This is the footer section-->
+  <div class="container-fluid ">
+    <div class="row align-items-center">
+      <div class="col">
+        &#169 Copyright 2020 Tony Tran
+      </div>
+    </div>
+  </div>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 </body>
