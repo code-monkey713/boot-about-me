@@ -1,12 +1,34 @@
 * {
   font-family: serif;
-  box-sizing: border-box;
+  /*box-sizing: border-box;*/
 }
 
 .navbar {
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-size: 1rem;
+  font-family: sans-serif;
+  font-weight: 200;
   letter-spacing: .1rem;
+  background-color: #f2f2f2;
+}
+
+.container {
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  width: 70%;
+  padding-left: 0;
+}
+
+.main {
+  /* background-color: darkorchid; */
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.row {
+  width: 65%;
+  /* background-color: darkred; */
 }
 
 navbar-brand {
@@ -19,9 +41,20 @@ navbar-brand {
 }
 
 .content {
-  background-color: cornflowerblue;
+  ;
 }
 
+footer {
+  background-color: rgb(105, 104, 104);
+  font-family: sans-serif;
+  text-align: center;
+  color: #6EC6BA;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  border-top-color: #6EC6BA;
+  border-top-width: vw;
+  border-top-style: thick;
+}
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
@@ -50,8 +83,9 @@ input[type=submit] {
 /* Create two columns that float next to eachother */
 .column {
   float: left;
-  width: 50%;
-  margin-top: 6px;
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
   padding: 20px;
 }
 
