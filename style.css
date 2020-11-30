@@ -10,36 +10,18 @@
 }
 
 navbar-brand {
-  height: 3rem;
-  justify-content: center;
+  height: 2.5rem;
+  font-size: x-large;
   background: #6EC6BA;
+  margin-left: 10px;
+  color: #f2f2f2;
+  padding-top: 9px;
 }
 
 .content {
   background-color: cornflowerblue;
 }
 
-/*
-.nav-item {
-  padding: .5rem;
-}
-
-.nav-link {
-  color: gray;
-}
-
-.nav-link.active,
-.nav-link:hover {
-  color: black;
-}
-
-name {
-  background-color: #6EC6BA;
-  color: azure;
-  font-size: 30px;
-  align-items: center;
-}
-*/
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
