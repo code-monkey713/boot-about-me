@@ -15,11 +15,28 @@
   background-image: url(..\\images\background.jpg);
 }
 
+main {
+  background-image: url(background.png);
+  background-size: 40%;
+  background-repeat: repeat;
+}
+
+.content {
+  margin-top: 80px;
+}
+
+article {
+  padding: 1.5rem;
+}
+
+.wrapper {
+  background-color: white;
+}
+
 h2 {
   color: #6EC6BA;
   font-weight: bolder;
   font-size: 2rem;
-  
 }
 
 .brand {
@@ -33,6 +50,10 @@ h2 {
   color: aliceblue;
 }
 
+.bottom {
+  margin-bottom: 50px;
+}
+
 footer {
   background-color: rgb(105, 104, 104);
   font-family: sans-serif;
@@ -44,6 +65,7 @@ footer {
   border-top-width: 6px;
   border-top-style: solid;
 }
+
 /* Style inputs */
 input[type=text], select, textarea {
   width: 100%;
