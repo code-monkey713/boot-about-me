@@ -1,6 +1,5 @@
 * {
   font-family: serif;
-  /*box-sizing: border-box;*/
 }
 
 .navbar {
@@ -9,28 +8,10 @@
   letter-spacing: .1rem;
 }
 
-.container {
-  border-style: solid;
-  padding: 10px;
-  background-image: url(..\\images\background.jpg);
-}
-
 main {
   background-image: url(background.png);
   background-size: 40%;
   background-repeat: repeat;
-}
-
-.content {
-  margin-top: 80px;
-}
-
-article {
-  padding: 1.5rem;
-}
-
-.wrapper {
-  background-color: white;
 }
 
 h2 {
@@ -39,19 +20,19 @@ h2 {
   font-size: 2rem;
 }
 
+section {
+  background: none;
+  padding: 1rem;
+}
+
 .brand {
   height: 3rem;
   font-family: serif;
   font-size: x-large;
   background: #6EC6BA;
-  margin-left: 10px;
   padding-top: 9px;
   font-weight: bolder;
   color: aliceblue;
-}
-
-.bottom {
-  margin-bottom: 50px;
 }
 
 footer {
