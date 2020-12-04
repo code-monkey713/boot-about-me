@@ -2,6 +2,10 @@
   font-family: serif;
 }
 
+img {
+  width: 100%;
+}
+
 .navbar {
   font-size: 1rem;
   font-family: sans-serif;
@@ -94,6 +98,6 @@ input[type=submit] {
 
 @media only screen and (min-width: 992px) {
   img {
-    width: 80%;
+    width: 95%;
   }
 }
