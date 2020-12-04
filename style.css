@@ -43,8 +43,12 @@ section {
   color: aliceblue;
 }
 
+p {
+  font-family: monospace, 'Times New Roman', Times, serif;
+}
+
 footer {
-  background-color: rgb(105, 104, 104);
+  background-color: rgb(43, 39, 39);
   font-family: sans-serif;
   text-align: center;
   color: #6EC6BA;
