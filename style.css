@@ -2,6 +2,7 @@
   font-family: serif;
 }
 
+/*Making all image scale to screen size till max on image size*/
 img {
   width: 100%;
 }
@@ -49,6 +50,10 @@ section {
 
 p {
   font-family: monospace, 'Times New Roman', Times, serif;
+}
+
+.social-media {
+  padding-top: 3rem;
 }
 
 footer {
