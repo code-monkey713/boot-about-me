@@ -25,6 +25,10 @@ h2 {
   font-size: 2rem;
 }
 
+.portfolio{
+  margin-bottom: 1rem;
+}
+
 section {
   background: none;
   background-color: white;
