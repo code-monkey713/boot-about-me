@@ -19,7 +19,7 @@ There is no special installation instructions.
 
 The links for all the portfolio items will be on the portfolio page. Screenshot provided below.
 
-![screenshot](./assets/images/screenshot2021.png)
+![screenshot](./assets/images/screenshot-april2021.png)
 
 ## Credits
 
