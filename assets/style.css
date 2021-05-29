@@ -101,18 +101,6 @@ p {
   padding-top: 3rem;
 }
 
-/* footer {
-  background-color: rgb(43, 39, 39);
-  font-family: sans-serif;
-  text-align: center;
-  color: #6ec6ba;
-  padding-top: 25px;
-  padding-bottom: 25px;
-  border-top-color: #6ec6ba;
-  border-top-width: 6px;
-  border-top-style: solid;
-} */
-
 /* Style inputs */
 input[type='text'],
 select,
@@ -235,11 +223,11 @@ input[type='submit'] {
 
 #about-image {
   /* Positioning */
-  float: left;
+  float: right;
 
   /* Box-model */
   width: 200px;
-  margin: 0 20px 10px 0;
+  margin: 10px 20px 10px 10px;
 }
 /* END ABOUT-ME PAGE */
 
