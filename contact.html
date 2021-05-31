@@ -77,16 +77,22 @@
               </li>
               <li class="list-group-item">Phone: 832-630-5193</li>
             </ul>
-            <form class="block form-horizontal">
+            <form
+              class="block form-horizontal"
+              name="contact"
+              method="POST"
+              data-netlify="true"
+            >
               <hr />
               <div class="form-group">
                 <label for="name" class="col-sm-12 control-label">Name</label>
                 <div class="col-sm-12">
                   <input
-                    type="email"
+                    type="text"
                     class="form-control"
                     id="name"
                     placeholder="Name"
+                    name="name"
                   />
                 </div>
               </div>
@@ -94,10 +100,11 @@
                 <label for="email" class="col-sm-12 control-label">Email</label>
                 <div class="col-sm-12">
                   <input
-                    type="password"
+                    type="email"
                     class="form-control"
                     id="email"
                     placeholder="Email"
+                    name="email"
                   />
                 </div>
               </div>
@@ -109,10 +116,11 @@
                     class="form-control"
                     rows="3"
                     placeholder="Message"
+                    name="msg"
                   ></textarea>
                 </div>
               </div>
-              <button class="submit-btn">Submit</button>
+              <button type="submit" class="submit-btn">Submit</button>
             </form>
           </article>
         </div>
