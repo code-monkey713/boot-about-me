@@ -33,7 +33,7 @@ img {
 .block {
   background-color: #fff;
   padding: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .block-header {
@@ -98,7 +98,7 @@ p {
 }
 
 .social-media {
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 /* Style inputs */
@@ -213,7 +213,7 @@ input[type='submit'] {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  font-family: Georgia, Times, 'Times New Roman', serif;
+  /* font-family: Georgia, Times, 'Times New Roman', serif; */
 
   /* Typography */
   font-size: 32px;
@@ -223,12 +223,27 @@ input[type='submit'] {
 
 #about-image {
   /* Positioning */
-  float: right;
+  /* float: right; */
+  /* text-align: center; */
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto; 
+  width: 50%; 
 
   /* Box-model */
-  width: 200px;
+  display: block;
+  text-align: center;
+
+  /* width: 200px; */
   margin: 10px 20px 10px 10px;
 }
+
+.card {
+  width: 100%;
+  /* text-align: center; */
+  
+}
+
 /* END ABOUT-ME PAGE */
 
 /* PORTFOLIO PAGE */
