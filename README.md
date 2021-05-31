@@ -1,6 +1,6 @@
 # Tony Tran - My Bootstrap Portfolio
 License: ![License](https://img.shields.io/badge/license-MIT-green)
-Tech Stack: ![HTML](https://img.shields.io/badge/HTML-version5-orange) ![CSS](https://img.shields.io/badge/CSS-version3-green) ![Netlify](https://img.shields.io/badge/Netlify-deploy-blue)
+Tech Stack: ![HTML](https://img.shields.io/badge/HTML-version5-orange) ![CSS](https://img.shields.io/badge/CSS-version3-green) ![Bootstrap](https://img.shields.io/badge/Bootstrap-4.5.3-yellow) ![Netlify](https://img.shields.io/badge/Netlify-deploy-blue)
 
 Welcome to my portfolio website built using Bootstrap from the ground up. The application is deployed to Netlify. The form on contact page for submission is setup. I will get all submission of information sent. 
 
