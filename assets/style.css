@@ -17,9 +17,6 @@ img {
 }
 
 .navbar {
-  /* font-size: 1rem; */
-  /* font-family: sans-serif; */
-  /* letter-spacing: 0.1rem; */
   background: white;
   border: none;
 }
@@ -54,10 +51,10 @@ img {
 }
 
 main {
-  background-image: url(images/background.png);
+  background-image: url(images/background.jpeg);
   background-size: 40%;
   background-repeat: repeat;
-  margin: 80px 0;
+  margin: 60px 0;
 }
 
 h2 {
@@ -68,19 +65,6 @@ h2 {
 
 .portfolio {
   margin-bottom: 1rem;
-}
-
-section {
-  background: none;
-  background-color: white;
-  padding: 3rem;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 4rem;
-  margin-bottom: 3rem;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #6ec6ba;
 }
 
 .brand {
@@ -95,10 +79,6 @@ section {
 
 p {
   font-family: monospace, 'Times New Roman', Times, serif;
-}
-
-.social-media {
-  padding-top: 1rem;
 }
 
 /* Style inputs */
@@ -135,12 +115,6 @@ input[type='submit'] {
   display: table;
   clear: both;
 }
-
-/* @media only screen and (min-width: 992px) {
-  img {
-    width: 95%;
-  }
-} */
 
 /* media query for nav background color change */
 @media only screen and (max-width: 767px) {
@@ -213,7 +187,6 @@ input[type='submit'] {
 .about-me-header {
   /* Positioning */
   margin-bottom: 33px;
-  /* font-family: Georgia, Times, 'Times New Roman', serif; */
 
   /* Typography */
   font-size: 32px;
@@ -222,10 +195,6 @@ input[type='submit'] {
 }
 
 #about-image {
-  /* Positioning */
-  /* float: right; */
-  /* text-align: center; */
-  /* display: block; */
   margin-left: auto;
   margin-right: auto; 
   width: 50%; 
@@ -240,8 +209,6 @@ input[type='submit'] {
 
 .card {
   width: 100%;
-  /* text-align: center; */
-  
 }
 
 /* END ABOUT-ME PAGE */
